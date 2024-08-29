@@ -288,9 +288,9 @@ def show_world_map_with_navigation():
     navigation_frame.pack(fill=X)
 
     # Aggiungi bottoni per navigare nel tempo
-    Button(navigation_frame, text="<< Precedente", command=lambda: update_world_map(-1)).pack(side=LEFT, padx=10,
+    Button(navigation_frame, text="<< Previous", command=lambda: update_world_map(-1)).pack(side=LEFT, padx=10,
                                                                                               pady=10)
-    Button(navigation_frame, text="Successivo >>", command=lambda: update_world_map(1)).pack(side=LEFT, padx=10,
+    Button(navigation_frame, text="Next >>", command=lambda: update_world_map(1)).pack(side=LEFT, padx=10,
                                                                                              pady=10)
 
     # Aggiungi bottoni per il controllo del play automatico
